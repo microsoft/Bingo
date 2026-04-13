@@ -1,4 +1,4 @@
-# Bingo: Boosting Efficient Reasoning of LLMs via Dynamic and Significance-based Reinforcement Learning
+# Not All Tokens Matter: Towards Efficient LLM Reasoning via Token Significance in Reinforcement Learning
 
 <p align="center">
   <a href="https://arxiv.org/abs/2506.08125">
@@ -12,7 +12,7 @@
 
 ## Introduction 📖
 
-**Bingo** is an RL framework that boosts efficient reasoning in LLMs through advanced length-based reward design. It incorporates two key mechanisms: a significance-aware length reward that gradually guides the model to reduce only insignificant tokens, and a dynamic length reward that initially encourages elaborate reasoning for hard questions but decays over time. This approach achieves a favorable trade-off between accuracy and efficiency, outperforming vanilla rewards and other length-based reward baselines.
+We propose **Bingo**, an RL framework that enhances efficient reasoning in LLMs through advanced length-based reward design. It incorporates two key mechanisms: a significance-aware length reward that gradually guides the model to reduce only insignificant tokens, and a dynamic length reward that initially encourages elaborate reasoning for hard questions but decays over time. This approach achieves a favorable trade-off between accuracy and efficiency, outperforming vanilla rewards and other length-based reward baselines.
 
 ---
 
@@ -105,7 +105,7 @@ If you find this project helpful, please consider citing:
 
 ```bibtex
 @article{liu2025bingo,
-    title = {Bingo: Boosting Efficient Reasoning of LLMs via Dynamic and Significance-based Reinforcement Learning},
+    title = {Not All Tokens Matter: Towards Efficient LLM Reasoning via Token Significance in Reinforcement Learning},
     author = {Liu, Hanbing and Cao, Lang and Ren, Yuanyi and Zhou, Mengyu and Dong, Haoyu and Ma, Xiaojun and Han, Shi and Zhang, Dongmei},
     journal = {arXiv preprint arXiv:2506.08125},
     year = {2025}
